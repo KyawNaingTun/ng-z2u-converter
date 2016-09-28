@@ -1,13 +1,8 @@
-# ng-z2u-converter
-Angular Zawgyi to Unicode converter
+# Angular Zawgyi to Unicode Converter
 =======
-
-[![BuildStatus](http://kyawnaingtun.com)]
-(https://github.com/KyawNaingTun/ng-z2u-converter)
-
-
 A simple AngularJS filter that changes from Zawgyi font input values to Unicode values.
-
+ဇော်ဂျီဖောင့် ဖြင့်ရေးသားထားသော input values များကို unicode values အဖြစ် Database တွင် အလွယ်တကူ သိမ်ဆည်းနိုင်ပါသည်။
+database တွင် သိမ်းဆည်းထားသော Zawgyi font များကိုလည်း view section မှာ Unicode font အဖြစ် ပြောင်းလဲ ဖော်ပြနိုင်ပါသည်။
 
 ## How to get it ?
 
@@ -65,3 +60,4 @@ You can see in example folder.
 ## Credits
 This project is currently referenced by
 [http://www.mcfmyanmar.org/myanmar-unicode-converter/](http://www.mcfmyanmar.org/myanmar-unicode-converter/)
+All senior developers who developed font converter
