@@ -1,39 +1,39 @@
 {
   "name": "ng-z2u-converter",
   "version": "v0.0.1",
+  "main": "./dist/ng-z2u-converter.js",
   "description": "Myanmar Zawgyi To Unicode font converter",
-  "main": "",
-  "keywords": [
-    "myanmar",
-    "unicode",
-    "zawgyi",
-    "converter"
-  ],
+  "homepage": "https://github.com/KyawNaingTun/ng-z2u-converter",
+  "private": false,
   "authors": [
-    {
-      "name": "Kyaw Naing Tun"
-    },
-    {
-      "name": "Kyaw Naing Tun",
-      "email": "kyawnainghtun93@gmail.com"
-    },
-    {
-      "name": "Kyaw Naing Tun",
-      "email": "kyawnainghtun93@gmail.com",
-      "homepage": "http://kyawnaingtun.com"
-    }
+    "Kyaw Naing Tun"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:KyawNaingTun/ng-uz-converter.git"
+    "url": "git@github.com:KyawNaingTun/ng-z2u-converter.git"
   },
-  "homepage": "",
+  "keywords": [
+    "angular",
+    "converter",
+    "myanmar",
+    "unicode",
+    "zawgyi"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "angular": "1.5.8",
     "angular-ui-router": "^0.3.1"
   },
-  "license": "MIT",
   "dependencies": {
     "todc-bootstrap": "^3.0.2"
-  }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "build.conf.js",
+    "gulpfile.js",
+    "karma.conf.js",
+    "package.json"
+  ]
 }
