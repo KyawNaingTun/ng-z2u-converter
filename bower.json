@@ -1,6 +1,7 @@
 {
-  "name": "ng-uz-converter",
-  "description": "Myanmar Unicode and Zawgyi font converter powered by knt",
+  "name": "ng-z2u-converter",
+  "version": "v0.0.1",
+  "description": "Myanmar Zawgyi To Unicode font converter",
   "main": "",
   "keywords": [
     "myanmar",
@@ -9,17 +10,30 @@
     "converter"
   ],
   "authors": [
-    { "name": "Kyaw Naing Tun" },
-    { "name": "Kyaw Naing Tun", "email": "kyawnainghtun93@gmail.com" },
-    { "name": "Kyaw Naing Tun", "email": "kyawnainghtun93@gmail.com", "homepage": "http://kyawnaingtun.com" }
+    {
+      "name": "Kyaw Naing Tun"
+    },
+    {
+      "name": "Kyaw Naing Tun",
+      "email": "kyawnainghtun93@gmail.com"
+    },
+    {
+      "name": "Kyaw Naing Tun",
+      "email": "kyawnainghtun93@gmail.com",
+      "homepage": "http://kyawnaingtun.com"
+    }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/foo/bar.git"
+    "url": "git@github.com:KyawNaingTun/ng-uz-converter.git"
   },
   "homepage": "",
   "devDependencies": {
-    "angular": "1.5.8"
+    "angular": "1.5.8",
+    "angular-ui-router": "^0.3.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "todc-bootstrap": "^3.0.2"
+  }
 }

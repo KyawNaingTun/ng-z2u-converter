@@ -1,0 +1,25 @@
+.box{
+  background-color: #fff;
+  margin: 36px 10px 0 10px;
+  padding: 5px 10px;
+}
+/*content*/
+.content{
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+/*FOOTER*/
+footer {
+    color: #3C3A3A;
+    background-image: url("../img/nav-bg.png");
+    font-size: .85em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 35px;
+    line-height: 1.7em;
+    text-align: center;
+}
+footer p{
+  margin: 5px 0;
+}

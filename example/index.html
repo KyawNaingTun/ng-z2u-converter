@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="converterApp">
+    <head>
+        <title>Zawgyi To Unicode Converter</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+        <!-- Bootstrap -->
+				<link rel="stylesheet" media="screen" href="../bower_components/todc-bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" media="screen" href="../bower_components/todc-bootstrap/dist/css/bootstrap-theme.min.css">
+        <!-- core theme google doc style -->
+        <link rel="stylesheet" media="screen" href="../bower_components//todc-bootstrap/dist/css/todc-bootstrap.min.css">
+				<!-- Custom style -->
+				<link rel="stylesheet" href="assets/css/main.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+           <script type="text/javascript" href="/core-theme/js/html5shiv.js"></script>
+           <script type="text/javascript" href="/core-theme/js/respond.min.js"></script>
+        <![endif]-->
+        <!-- sweetalert -->
+        <!-- Angular -->
+        <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <!-- app level -->
+        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="z2u.converter.js"></script>
+    </head>
+    <body ng-controller="ApplicationController as appCtrl">
+    	<nav class="navbar navbar-inverse navbar-fixed-top navbar-masthead hidden-print">
+  		  <div class="">
+  		    <!-- Brand and toggle get grouped for better mobile display -->
+  		    <div class="navbar-header">
+  		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  		        <span class="sr-only">Toggle navigation</span>
+  		        <span class="icon-bar"></span>
+  		        <span class="icon-bar"></span>
+  		        <span class="icon-bar"></span>
+  		      </button>
+  		      <a class="navbar-brand" href="#">{{appCtrl.name}}</a>
+  		    </div>
+
+  		    <!-- Collect the nav links, forms, and other content for toggling -->
+  		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  		      <ul class="nav navbar-nav">
+  		          <li ui-sref-active="active"><a ui-sref="home">Home <span class="sr-only">(current)</span></a></li>
+    		    </ul>
+  		    </div><!-- /.navbar-collapse -->
+  		  </div><!-- /.container-fluid -->
+  		</nav>
+
+	    <div class="content">
+  		  <!-- angular view here -->
+  		  <div class="container-fluid" ui-view></div>
+  		</div>
+
+        <!-- footer -->
+        <footer class="hidden-print">
+            <p class="">Developed By <a href="http://www.matkhayar.com" target="_blank">Matkhayar System Develpment</a></p>
+        </footer>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="../bower_components/todc-bootstrap/dist/js/bootstrap.min.js"></script>
+
+    </body>
+</html>

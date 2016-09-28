@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="box">
+    <!-- here module templates -->
+    <div class="col-md-6">
+      <form>
+        <div class="form-group">
+          <label>Zawgyi Text</label>
+          <textarea class="form-control" rows="10" ng-model="appCtrl.zgText"></textarea>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Unicode Text</label>
+        <textarea class="form-control" rows="10">
+          {{appCtrl.zgText|converterAppFilter}}
+        </textarea>
+      </div>
+    </div>
+    <div class="clearfix">
+    <div class="col-md-12">
+      <button type="button" class="btn btn-success" name="button" ng-click="appCtrl.filterByController()">Filter By Controller</button>
+      <textarea class="form-control" rows="10">
+        {{appCtrl.filterByContrlResult}}
+      </textarea>
+    </div>
+  </div>
+</div>
