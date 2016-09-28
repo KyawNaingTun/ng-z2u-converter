@@ -9,7 +9,7 @@ module.exports = function(grunt) {
           },
           app: {
               files: {
-                  './ng-annotate-safe/js/z2u.converter.js': ['./example/z2u.converter.js']
+                  './ng-annotate-safe/js/z2u.converter.js': ['./core/z2u.converter.js']
               }
           }
         },
