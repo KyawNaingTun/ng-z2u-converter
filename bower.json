@@ -21,6 +21,5 @@
   "devDependencies": {
     "angular": "1.5.8"
   },
-  "license": "MIT",
-  "private": true
+  "license": "MIT"
 }
