@@ -19,9 +19,9 @@ var converterApp = angular.module('converterApp', ['ui.router', 'ngZ2UConverter'
 
       var vm = this;
       vm.name = "Converter Application";
-      vm.zgText = "အေပါင္ထားသူသည္ အတိုး၁လ ၁၂ရက္ေပးရမည္ကို၁လတိုးဘဲပါလာလို႔ ၁လစာႀကိဳးတိုးရွင္းသည္။ေဘာက္ခ်ာစာရြက္၏ေနာက္တြင္လက္ေရးျဖင့္ေရးေပးမည္။computerတြင္data မွတ္ထားမည္။Print ထုတ္ရန္မလိုပါ။ ႀကိဳသြင္းမူ႔က ိုမေရြးမီ၊ ေငြတိုးမယူမီ၊ အရင္းမသြင္းမီ ၁ႀကိမ္ထက္ပိုၿပီးလုပ္ႏိုင္သည္။";
+      vm.zgText = "ျမန္မာယူနီကုဒ္ႏွင့္ ပါတ္သက္ေသာ သတင္းမ်ား၊ ေဆာင္းပါးမ်ားႏွင့္ ျမန္မာယူနီကုဒ္ဧရိယာ အဖြဲ႕၏ လႈပ္ရွား ေဆာင္ရြက္မႈမ်ားကို www.mmunicode.org တြင္ တင္ျပေပးသြားမွာ ျဖစ္ပါတယ္။";
       vm.filterByController = function(){
-        vm.filterByContrlResult = $filter('converterAppFilter')(vm.zgText);
+        vm.filterByContrlResult = $filter('convertToUnicode')(vm.zgText);
       }
 
     });

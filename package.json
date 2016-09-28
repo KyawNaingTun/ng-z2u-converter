@@ -1,6 +1,6 @@
 {
   "name"         : "ng-z2u-converter",
-  "version"      : "0.0.2",
+  "version"      : "1.0.0",
   "description"  : "Angular Zawgyi to Unicode converter",
   "main"         : "server.js",
   "author"       : "Kyaw Naing Tun",

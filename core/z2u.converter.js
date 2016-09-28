@@ -6,7 +6,7 @@
 */
 angular
     .module('ngZ2UConverter',[])
-    .filter( 'converterAppFilter', function() {
+    .filter( 'convertToUnicode', function() {
                 return function( zgtext ) {
                   if (zgtext) {
                     var utext = zgtext;

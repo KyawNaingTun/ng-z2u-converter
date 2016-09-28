@@ -34,7 +34,7 @@ npm install ng-copy-text
 
 3. Use the filter by passing it zawgyi text[View].
   ```html
-  <span>{{zawgyiText | converterAppFilter}}</span>
+  <span>{{zawgyiText | convertToUnicode}}</span>
   ```
 4. You can also use in controller[Controller]
   ```javascript
@@ -44,7 +44,7 @@ npm install ng-copy-text
     vm.name = "Converter Application";
     vm.zawgyiText = "ျမန္မာယူနီကုဒ္ႏွင့္ ပါတ္သက္ေသာ သတင္းမ်ား၊ ေဆာင္းပါးမ်ားႏွင့္ ျမန္မာယူနီကုဒ္ဧရိယာ အဖြဲ႕၏ လႈပ္ရွား ေဆာင္ရြက္မႈမ်ားကို www.mmunicode.org တြင္ တင္ျပေပးသြားမွာ ျဖစ္ပါတယ္။";
     vm.filterByController = function(){
-      vm.filterByContrlResult = $filter('converterAppFilter')(vm.zawgyiText);
+      vm.filterByContrlResult = $filter('convertToUnicode')(vm.zawgyiText);
     }
 
   });
