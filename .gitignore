@@ -2,3 +2,4 @@ bower_components
 node_modules
 ng-annotate-safe
 .DS_Store
+core

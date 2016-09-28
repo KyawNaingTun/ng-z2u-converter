@@ -1,7 +1,7 @@
 'use strict';
 /**
 *  Angular Zawgyi To Unicode Converter Module
-*
+* version [0.0.1]
 * Description
 */
 angular
