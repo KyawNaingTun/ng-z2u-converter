@@ -1,6 +1,6 @@
 {
   "name": "ng-z2u-converter",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "main": "./dist/ng-z2u-converter.js",
   "description": "Myanmar Zawgyi To Unicode font converter",
   "homepage": "https://github.com/KyawNaingTun/ng-z2u-converter",
@@ -26,7 +26,7 @@
     "todc-bootstrap": "^3.0.2"
   },
   "dependencies": {
-    
+
   },
   "ignore": [
     "**/.*",
