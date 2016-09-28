@@ -22,10 +22,11 @@
   "license": "MIT",
   "devDependencies": {
     "angular": "1.5.8",
-    "angular-ui-router": "^0.3.1"
+    "angular-ui-router": "^0.3.1",
+    "todc-bootstrap": "^3.0.2"
   },
   "dependencies": {
-    "todc-bootstrap": "^3.0.2"
+    
   },
   "ignore": [
     "**/.*",
