@@ -1,2 +1,2 @@
-# ng-uz-converter
-Angular Myanmar Unicode and Zawgyi font converter filter
+# ng-z2u-converter
+Angular Zawgyi to Unicode converter
