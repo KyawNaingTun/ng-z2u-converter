@@ -1,7 +1,7 @@
 # Angular Zawgyi to Unicode Converter
 =======
 A simple AngularJS filter that changes from Zawgyi font input values to Unicode values.
-ဇော်ဂျီဖောင့် ဖြင့်ရေးသားထားသော input values များကို unicode values အဖြစ် Database တွင် အလွယ်တကူ သိမ်ဆည်းနိုင်ပါသည်။
+ဇော်ဂျီဖောင့် ဖြင့်ရေးသားထားသော input values များကို unicode values အဖြစ် Database တွင် အလွယ်တကူ သိမ်းဆည်းနိုင်ပါသည်။
 database တွင် သိမ်းဆည်းထားသော Zawgyi font များကိုလည်း view section မှာ Unicode font အဖြစ် ပြောင်းလဲ ဖော်ပြနိုင်ပါသည်။
 
 ## How to get it ?
